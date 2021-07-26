@@ -127,11 +127,11 @@ public class MServer extends Thread {
 
 					serverSocket.send(sentPacket);
 
-					System.out.println();
-					System.out.println("CLIENT PORT = " + clientPort + "\nFile = " + fileName);
+					// System.out.println();
+					// System.out.println("CLIENT PORT = " + clientPort + "\nFile = " + fileName);
 
-					System.out.println();
-					System.out.println(new String(lastPacket));
+					// System.out.println();
+					// System.out.println(new String(lastPacket));
 
 				} else {
 

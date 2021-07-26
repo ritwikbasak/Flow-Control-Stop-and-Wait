@@ -88,8 +88,8 @@ public class FClient {
 					System.out.println();
 					System.out.println("Received CONSIGNMENT " + packetNum);
 
-					System.out.println();
-					System.out.println(new String(readBuffer));
+					// System.out.println();
+					// System.out.println(new String(readBuffer));
 
 					int payloadLength = packetLength - ((end) ? 13 : 9);
 
